@@ -1,0 +1,272 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>BBA</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .carousel-inner > .item > img {
+            width:100%;
+            height:369px;
+        }
+city {
+ background-color:orange;
+     color:black;
+     padding:20px;
+     text-align:center;
+   background-color:grey ;
+   float: left;
+   margin: 20px;
+   padding: 20px;
+   max-width: 300px;
+   height: 300px;
+   border: 1px solid black;
+   font-color: black;
+}
+    </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">BITEXL</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Department<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="bca.html">BCA</a></ li>
+            <li><a href="">BBA</a></li>
+            <li><a href="#">MBA</a></li>
+            <li><a href="#">MCA</a></li>
+          </ul>
+        </li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="society.html">Society</a></li>
+        <li><a href="H:\bitexl001\sponsor.html">Sponsors</a></li>
+        <li><a href="H:\bitexl001\gallery\gallery.html">Gallery</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- carousel slideshow !-->
+<br/><br/><br/>
+<div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="bba1.jpg" alt="BITEXL"  width="100%" height="369px">
+        <div class="carousel-caption">
+          <h2>BITEXL</h2>
+          <p>We Work for the Students' Need of Our College </p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="bba2.jpg" alt="BITEXL" width="100%" height="369">
+        <div class="carousel-caption">
+          <h2>BITEXL</h2>
+          <p>We Work for the Students' Need of Our College </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- Dynamic Menu Bar for app download and results -->
+<div class="container">
+  <br>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Welcome</a></li>
+    <li><a data-toggle="tab" href="#menu1">Results</a></li>
+    <li><a data-toggle="tab" href="#menu2">Downloads</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>Welcome Bitians..!!</h3>
+      <p><h4> <i> B.B.A or Bachelor of Business Administration is an undergratuated Business course. The duration
+            of bachelor of business administration is three years, divided into a no. of semester which are generally six
+            in numbers.</i></h4></p>
+</div>
+
+<body>
+<div class="container">
+  <h2><i>QUESTIONS</i></h2>
+  <p></p>  
+  <input class="form-control" id="myInput" type="text" placeholder="Search..">
+  <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Semester Sllaybus</th>
+        <th>Mid sem (questions)</th>
+        <th>End sem (questions)</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+       <tr>
+        <td><b><a href="#">Sem(i)</a></b></td>
+        <td><b><a href="#">Sem(i)</a></b></td>
+        <td><b><a href="#">Sem(i)</a></b></td>
+        
+        
+        
+      <tr>
+        <td><b><a href="#">sem(ii)</a></b></td>
+        <td><b><a href="#">sem(ii)</a></b></td>
+        <td><b><a href="#">sem(ii)</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">sem(iii)</a></b></td>
+        <td><b><a href="#">sem(iii)</a></b></td>
+        <td><b><a href="#">sem(iii)</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">sem(iv)</a></b></td>
+        <td><b><a href="#">sem(iv)</a></b></td>
+        <td><b><a href="#">sem(iv)</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">sem(v)</a></b></td>
+        <td><b><a href="#">sem(v)</a></b></td>
+        <td><b><a href="#">sem(v)</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">sem(vi)</a></b></td>
+        <td><b><a href="#">sem(vi)</a></b></td>
+        <td><b><a href="#">sem(vi)</a></b></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <p></p>
+</div>
+
+
+
+<div class="container">
+  <h2><i>Course Books</i></h2>
+           <br>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Semester 1</th>
+        <th>Semester 2</th>
+        <th>Semester 3</th>
+        <th>Semester 4</th>
+        <th>Semester 5</th>
+        <th>Semester 6</th>
+      </tr>
+    </thead>
+    <tbody id="myTable">
+       <tr>
+        <td><b><a href="#">BBA101 General Principles Of Management</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA3001 Research Methodlogy</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+      <tr>
+        <td><b><a href="#">BBA102 Business Statistics</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA3003 Human Resources Management</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">BBA109 Fundamentals Of Computer's Computing</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA3005 Legal Aspect of Management</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">BBA104 Business Economics</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA3007 Introduction To Financial Markets</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">BBA105 Introduction To Business Accounting</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA3009 Financial Accounting</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+      </tr>
+      <tr>
+        <td><b><a href="#">BBA108 Business Communication</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA3011 Principles Of Marketing-II</b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+        <td><b><a href="#">BBA</a></b></td>
+      </tr>
+    </tbody>
+  </table>
+  <p></p>
+</div>
+
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
+
+<!-- Last End part of the Home page -->
+<div class="container-fluid">
+  <center>
+  <h3>Thanks for Visiting us </h3>
+  <p>BITEXL™ 2017 </p>
+  </center>
+</div>
+
+</body>
+</html>
